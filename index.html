@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <!-- heading -->
+<div class="heading">
+    <h1 id="heading">Etch-a-sketch</h1>
+</div>
+<div class="main">
+       <div class="button">
+           <input type="color" class="buttons" id="color" > 
+           <button class="buttons" id="selectColor">Color</button>
+           <button class="buttons" id="rainbow">Rainbow</button>
+           <button class="buttons" id="clearGrid">Clear</button>
+           <div id ="size-range" class=>
+               <label for="size"></label>
+               <span id="number"></span>
+               <br>
+               <input type="range" id="size" name="sizeRange" min="1" max="70" onmousemove=" rangeSelection()" >
+               
+           </div>
+       </div> 
+       <div class="main-container" >
+       </div>
+
+       
+     
+</div>       
+    <script src="./main.js"></script>
+</body>
+</html>
